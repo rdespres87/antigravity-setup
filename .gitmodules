@@ -1,0 +1,12 @@
+[submodule "submodules/antigravity-plugins"]
+	path = submodules/antigravity-plugins
+	url = git@github.com:rdespres87/antigravity-plugins.git
+[submodule "submodules/antigravity-skills"]
+	path = submodules/antigravity-skills
+	url = git@github.com:rdespres87/antigravity-skills.git
+[submodule "submodules/antigravity-tiered-router"]
+	path = submodules/antigravity-tiered-router
+	url = git@github.com:rdespres87/antigravity-tiered-router.git
+[submodule "submodules/antigravity-efficiency-router"]
+	path = submodules/antigravity-efficiency-router
+	url = git@github.com:rdespres87/antigravity-efficiency-router.git

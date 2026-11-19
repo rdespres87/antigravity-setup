@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "tiered-router": {
+      "command": "python3",
+      "args": [
+        "{{TIERED_ROUTER_PATH}}/server/tiered_router_mcp.py"
+      ],
+      "env": {
+        "LMSTUDIO_HOST": "http://127.0.0.1:1234",
+        "LMSTUDIO_DECISION_MODEL": "qwen/qwen3.6-35b-a3b"
+      }
+    },
+    "headroom": {
+      "command": "{{HEADROOM_BIN}}",
+      "args": [
+        "mcp",
+        "serve"
+      ]
+    }
+  }
+}
