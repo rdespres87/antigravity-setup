@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Logs & temp
+*.log
+tmp/
+
+# Antigravity & Headroom
+.headroom/
